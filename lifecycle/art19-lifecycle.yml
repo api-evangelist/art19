@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.art19.com/
+status_page: https://status.art19.com/
+status_page_platform: Hexo (self-hosted static status page)
+status_components:
+- Content Management System
+- RSS
+- WarpFeed
+- Web Player
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
+notes: >-
+  Art19 publishes a public system status page at status.art19.com covering its
+  podcast hosting and distribution platform (CMS, RSS, WarpFeed dynamic feed
+  technology, and Web Player). No public versioning policy, deprecation policy,
+  or SLA document was found on the provider's public surface as of this probe.

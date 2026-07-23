@@ -1,0 +1,18 @@
+# Art19
+
+> Art19 (ART19, Inc.) is a podcast hosting, distribution, and monetization platform. It provides content management, RSS feed generation, dynamic ad insertion via its WarpFeed feed technology, and an embeddable Web Player for publishers, networks, and enterprises. Art19 is an Amazon company. Art19 does not publish a public developer API or documentation portal; its public surface is the marketing site, a contact page, a privacy policy, and a system status page.
+
+## Company
+- [Art19 website](https://art19.com/): Podcast hosting and monetization platform home page.
+- [About](https://art19.com/about): Company overview.
+- [Contact](https://art19.com/contact): Contact and support requests.
+- [Privacy Policy](https://art19.com/privacy): Privacy policy.
+
+## Operations
+- [System Status](https://status.art19.com/): Live status for CMS, RSS, WarpFeed, and Web Player.
+
+## Code
+- [GitHub organization](https://github.com/art19): ART19, Inc. public repositories (open-source forks and internal tooling; no first-party API SDK published).
+
+## Notes
+- No public REST/GraphQL/AsyncAPI specification, OpenAPI document, SDK, CLI, or `/.well-known/` discovery surface was found on the provider's public hosts as of 2026-07-18.

@@ -1,8 +1,25 @@
 aid: art19
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/art19.png
 name: Art19
-description: 'Art19 is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Art19 (ART19, Inc.) is a podcast hosting, distribution, and monetization platform, and an Amazon
+  company. It provides publishers, networks, and enterprises with a content management system for
+  audio, automated RSS feed generation, dynamic ad insertion and targeting through its WarpFeed feed
+  technology, and an embeddable Web Player. The platform serves podcast delivery, analytics, and
+  advertising workflows at scale. Art19 does not currently publish a public developer API, SDK, or
+  documentation portal; its public presence consists of a marketing site, a contact page, a privacy
+  policy, and a system status page tracking CMS, RSS, WarpFeed, and Web Player availability.
 url: https://raw.githubusercontent.com/api-evangelist/art19/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Podcasting
+- Podcast Hosting
+- Audio
+- Advertising
+- Monetization
+- Media
+- Content Distribution
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/art19-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/art19-lifecycle.yml
+- type: StatusPage
+  url: https://status.art19.com/
+- type: LLMsTxt
+  url: llms/art19-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/art19
+- type: PrivacyPolicy
+  url: https://art19.com/privacy
+- type: Support
+  url: https://art19.com/contact
 - type: Website
   url: https://art19.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
